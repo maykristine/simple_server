@@ -1,0 +1,43 @@
+{
+  "name": "simple-server",
+  "version": "0.1.0",
+  "description": "Boilerplate template for REST projects",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "async": "*",
+    "body-parser": "*",
+    "express": "*",
+    "helmet": "*",
+    "minimist": "*",
+    "node-schedule": "*",
+    "node-uuid": "*",
+    "object-path": "*",
+    "restler": "*",
+    "scribe-js": "*",
+    "throng": "*",
+    "lodash": "*"
+  },
+  "engines": {
+    "node": "4.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xhh2a/simple_server"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "devDependencies": {
+    "chai": "*",
+    "request": "*",
+    "sinon": "*",
+    "mocha": "*"
+  },
+  "license": "MIT"
+}

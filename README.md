@@ -1,0 +1,1 @@
+Simple REST server setup based on old projects
